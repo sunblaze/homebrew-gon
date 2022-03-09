@@ -3,7 +3,7 @@ class Gon < Formula
   desc "Sign, notarize, and package macOS CLI tools and applications written in any language."
   homepage ""
   version "0.2.3"
-  bottle :unneeded
+  # bottle :unneeded
 
   if OS.mac?
     url "https://github.com/mitchellh/gon/releases/download/v0.2.3/gon_macos.zip"
